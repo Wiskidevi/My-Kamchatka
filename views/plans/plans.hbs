@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя Камчатка</title>
+    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/for-pages.css">
+    <script src="https://kit.fontawesome.com/78b972f1f9.js" crossorigin="anonymous"></script> <!-- для иконок --> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="../js/menu.js"></script> 
+</head>
+<div class="background-all" id="background-plans2" style="background-image: url('/images/background-plans.jpg');">
+<h1 id="main-text">САМОЛЁТЫ</h1>
+
+<!-- Ссылки-цепочки -->
+<ul class="links-chains">
+<li><a href="../index.html">Главная</a></li>
+<li><a href="../plans/plans.html">Самолёты</a></li>
+</ul>
+
+<header class="header">
+    <div class="container">
+        <div class="menu-burger__header">
+            <span></span>
+        </div>
+        <div class="header__nav">
+        <ul class="header__menu">
+            <li id="burger-margin"><a href="/" class="menu__item" title="Переход на главную страницу меню">Главная</a></li>
+            <li id="burger-margin">
+                <a class="menu__item" title="Туры">Туристу</a>
+                <ul>
+                    <li><a href="/tourist" title="Экскурсии">Экскурсии</a></li>
+                    <li><a href="/events" title="Куда сходить на Камчатке">Куда сходить</a></li>
+                    <li><a href="/at-development">Проживание</a></li>
+                    <li><a href="/tourist-cafe">Где поесть</a></li>
+                </ul>
+            </li>
+            <li id="burger-margin">
+                <a class="menu__item">Фотогалерея</a>
+                <ul>
+                    <li><a href="/animals" title="Фотогалерея с животными">Животные</a></li>
+                    <li><a href="/plants" title="Фотогалерея с растениями">Растения</a></li>
+                    <li><a href="/at-development">Город</a></li>
+                    <li><a href="/at-development">Гейзеры</a></li>
+                </ul>
+            </li>
+            <li id="burger-margin">
+                <a class="menu__item">Новости</a>
+                <ul>
+                    <li><a href="/news" title="Новости Камчатки">Все новости</a></li>
+                    <li><a href="/at-development">Экономика</a></li>
+                    <li><a href="/at-development">Политика</a></li>
+                    <li><a href="/at-development">Праздники</a></li>
+                    <li><a href="/at-development">Блог</a></li>
+                </ul>
+            </li>
+            <li id="burger-margin">
+                <a class="menu__item">История</a>
+                <ul>
+                    <li><a href="/history" title="Краткая история">Открытие</a></li>
+                    <li><a href="/at-development">Природа</a></li>
+                    <li><a href="/at-development">Мореплаватели</a></li>
+                    <li><a href="/at-development">Народы</a></li>
+                    <li><a href="/at-development">Сейчас</a></li>
+                </ul>
+            </li>
+            <li id="burger-margin">
+                <a class="menu__item" title="Расписание транспорта на Камчатке">Транспорт</a>
+                <ul>
+                    <li><a href="/plans" title="Расписание самолетов на Камчатке">Самолёты</a></li>
+                    <li><a href="/at-development">Автобусы</a></li>
+                    <li><a href="/at-development">Вертолёты</a></li>
+                    <li><a href="/at-development">Яхты</a></li>
+                    <li><a href="/at-development">Такси</a></li>
+                </ul>
+            </li>
+            <li id="burger-margin">
+                <a class="menu__item">Погода</a>
+                <ul>
+                    <li><a href="/weather" title="Погода на Камчатке сейчас">Сейчас</a></li>
+                    <li><a href="/at-development">На неделю</a></li>
+                </ul>
+            </li>
+            <li id="burger-margin">
+                <a class="menu__item">Бизнесу</a>
+                <ul>
+                    <li><a href="/buisnes" title="Открытие туристического бизнеса">Туризм</a></li>
+                    <li><a href="/at-development">Сферы</a></li>
+                    <li><a href="/at-development">Государство</a></li>
+                </ul>
+            </li>
+            <li id="burger-margin"><a href="/map" class="menu__item" title="Карта сайта">Карта сайта</a></li>
+            <li id="burger-margin"><a href="/about-company" class="menu__item" title="О компании">О нас</a></li>
+            <li id="burger-margin"><a href="/register" class="menu__item" title="Регистрация"><img src="/images/user.png" class="reg-user"></a></li>
+            <li id="logo-place"><img src="/images/logo.png" class="logo"></li>
+            <li id="form_search_button"> <form>
+                <input type="text" placeholder="Искать здесь...">
+                <button class="submit-button" type="submit"><i class="fa fa-search" style="color: #fff"></i></button>
+                </form>
+            </li>
+            </ul>
+        </div>
+    </div>
+</header>
+</div> <!-- закрытие тега с фоновым изображением -->
+
+<a class="buttons-top-footer" id="toTop" href="#background-plans2" title="Вверх страницы">^</a>
+
+
+
+<div class="sidenav">
+    <div id="5b6d84a3f367248fe77d12a960d23a76" class="ww-informers-box-854753"><p class="ww-informers-box-854754"><a href="https://world-weather.ru/pogoda/russia/petropavlovsk_kamchatsky/">Подробнее о погоде в Петропавловске-Камчатском</a><br><a href="https://world-weather.ru/pogoda/russia/tomsk/">world-weather.ru</a></p></div><script async type="text/javascript" charset="utf-8" src="https://world-weather.ru/wwinformer.php?userid=5b6d84a3f367248fe77d12a960d23a76"></script><style>.ww-informers-box-854754{-webkit-animation-name:ww-informers54;animation-name:ww-informers54;-webkit-animation-duration:1.5s;animation-duration:1.5s;white-space:nowrap;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;font-size:12px;font-family:Arial;line-height:18px;text-align:center}@-webkit-keyframes ww-informers54{0%,80%{opacity:0}100%{opacity:1}}@keyframes ww-informers54{0%,80%{opacity:0}100%{opacity:1}}</style>
+    <h1>Последние новости</h1>
+    <h2>На Камчатке суд оштрафовал директора филиала «Нацрыбресурса»</h2>
+    <img src="/images/images/news/news_sidenav/news1.jpg" class="new-picture">
+    <div class="line"> </div>
+    <a href="/news" id="show-all" title="Все новости">показать все</a>
+    <figure>
+    <a href="https://dvamoryaokean.ru" title="Ресторан рыбной кухни" target="_blank">
+    <img src="/images/images/news/news_sidenav/add.jpg" class="add-picture" >
+    <figcaption id="add-text">Ресторан морской кухни, основанной на локальных продуктах...</figcaption>
+    </a>
+    </figure>
+</div>
+
+<div class="text-name">Расписание самолётов</div>
+<div class="line"> </div>
+
+<table>
+
+    <tr class="header-airplanes">
+        <td>отправление</td>
+        <td>прибытие</td>
+        <td>дни полётов</td>
+        <td>период</td>
+        <td>авиакомпания</td>
+        <td>№ рейса</td>
+        <td>тип судна</td>
+        <td>аэропорт</td>
+    </tr>
+
+    <tr class="city-name" cosplan="8">
+        <th>Анадырь</th>
+    </tr>
+
+    <tr>
+        <td>09:00</td>
+        <td>13:40</td>
+        <td>пт</td>
+        <td>02 июн / 25 авг</td>
+        <td><img src="icons/kap.png" class="icons-airplanes"></td>
+        <td>PTK-2607</td>
+        <td>АН-26</td>
+        <td>DYR</td>
+    </tr>
+
+    <tr class="city-name" cosplan="8">
+        <th>Владивосток</th>
+    </tr>
+
+    <tr>
+        <td>09:00</td>
+        <td>10:10</td>
+        <td>сб</td>
+        <td>01 апр / 09 сен</td>
+        <td><img src="icons/vrora.jpg" class="icons-airplanes"></td>
+        <td>HZ-56176</td>
+        <td>A-319</td>
+        <td>VVO</td>
+    </tr>
+
+    <tr>
+        <td>09:25</td>
+        <td>10:35</td>
+        <td>ср, чт, пт, вс</td>
+        <td>29 мар / 10 сен</td>
+        <td><img src="icons/vrora.jpg" class="icons-airplanes"></td>
+        <td>HZ-56176</td>
+        <td>A-319</td>
+        <td>VVO</td>
+    </tr>
+
+    <tr>
+        <td>09:55</td>
+        <td>11:30</td>
+        <td>пн, вт, чт, сб</td>
+        <td>27 мар / 28 окт</td>
+        <td><img src="icons/s7.png" class="icons-airplanes"></td>
+        <td>S7-6216</td>
+        <td>A-320NEO</td>
+        <td>VVO</td>
+    </tr>
+
+    <tr>
+        <td>10:35</td>
+        <td>12:10</td>
+        <td>пт</td>
+        <td>02 июн / 08 сен</td>
+        <td><img src="icons/s7.png" class="icons-airplanes"></td>
+        <td>S7-6218</td>
+        <td>A-320NEO</td>
+        <td>VVO</td>
+    </tr>
+
+    <tr>
+        <td>14:00</td>
+        <td>15:30</td>
+        <td>вт</td>
+        <td>28 мар / 24 окт</td>
+        <td><img src="icons/vrora.jpg" class="icons-airplanes"></td>
+        <td>HZ-5615</td>
+        <td>A-319</td>
+        <td>VVO</td>
+    </tr>
+
+    <tr>
+        <td>14:20</td>
+        <td>15:40</td>
+        <td>ср, пт, вс</td>
+        <td>24 май / 08 окт</td>
+        <td><img src="icons/ural.png" class="icons-airplanes"></td>
+        <td>U6-386</td>
+        <td>A-320NEO</td>
+        <td>VVO</td>
+    </tr>
+
+    <tr>
+        <td>17:20</td>
+        <td>18:50</td>
+        <td>сб</td>
+        <td>22 апр / 28 окт</td>
+        <td><img src="icons/vrora.jpg" class="icons-airplanes"></td>
+        <td>HZ-56176</td>
+        <td>A-319</td>
+        <td>VVO</td>
+    </tr>
+
+    <tr>
+        <td>18:35</td>
+        <td>19:45</td>
+        <td>сб</td>
+        <td>27 мар / 23 окт</td>
+        <td><img src="icons/vrora.jpg" class="icons-airplanes"></td>
+        <td>HZ-5715</td>
+        <td>A-319</td>
+        <td>VVO</td>
+    </tr>
+
+    <tr class="city-name">
+        <th>Екатеринбург</th>
+    </tr>
+
+    <tr>
+        <td>14:20</td>
+        <td>19:45</td>
+        <td>ср, пт, вс</td>
+        <td>24 май / 08 окт</td>
+        <td><img src="icons/ural.png" class="icons-airplanes"></td>
+        <td>U6-386</td>
+        <td>A-320NEO</td>
+        <td>SVX</td>
+    </tr>
+
+    <tr class="city-name">
+        <th>Иркутск</th>
+    </tr>
+
+    <tr>
+        <td>10:30</td>
+        <td>11:55</td>
+        <td>вт, вс</td>
+        <td>16 май / 21 май</td>
+        <td><img src="icons/s7.png" class="icons-airplanes"></td>
+        <td>S7-6342</td>
+        <td>A-320NEO</td>
+        <td>IKT</td>
+    </tr>
+
+    <tr>
+        <td>10:30</td>
+        <td>11:55</td>
+        <td>вт, чт, вс</td>
+        <td>23 май / 01 окт</td>
+        <td><img src="icons/s7.png" class="icons-airplanes"></td>
+        <td>S7-6342</td>
+        <td>A-320NEO</td>
+        <td>IKT</td>
+    </tr>
+
+    <tr class="city-name">
+        <th>Магадан</th>
+    </tr>
+
+    <tr>
+        <td>08:50</td>
+        <td>10:00</td>
+        <td>пн, вт, ср, чт, пт</td>
+        <td>27 мар / 31 май</td>
+        <td><img src="icons/kap.png" class="icons-airplanes"></td>
+        <td>PTK-2601</td>
+        <td>ЯК-40</td>
+        <td>GDX</td>
+    </tr>
+
+    <tr>
+        <td>08:50</td>
+        <td>10:00</td>
+        <td>пн, вт, ср, чт, пт, вс</td>
+        <td>01 июн / 29 сен</td>
+        <td><img src="icons/kap.png" class="icons-airplanes"></td>
+        <td>PTK-2601</td>
+        <td>ЯК-40</td>
+        <td>GDX</td>
+    </tr>
+
+    <tr>
+        <td>13:50</td>
+        <td>15:00</td>
+        <td>сб</td>
+        <td>03 июн / 30 сен</td>
+        <td><img src="icons/kap.png" class="icons-airplanes"></td>
+        <td>PTK-2603</td>
+        <td>ЯК-40</td>
+        <td>GDX</td>
+    </tr>
+
+    <tr class="city-name">
+        <th>Москва</th>
+    </tr>
+
+    <tr>
+        <td>12:40</td>
+        <td>12:20</td>
+        <td>ежедневно</td>
+        <td>03 апр / 03 сен</td>
+        <td><img src="icons/aeroflot.png" class="icons-airplanes-aeroflot"></td>
+        <td>SU-1731</td>
+        <td>B777-300ER</td>
+        <td>SVO</td>
+    </tr>
+
+    <tr>
+        <td>16:00</td>
+        <td>15:55</td>
+        <td>пн, ср, сб</td>
+        <td>15 май / 20 май</td>
+        <td><img src="icons/aeroflot.png" class="icons-airplanes-aeroflot"></td>
+        <td>SU-1735</td>
+        <td>B777-300ER</td>
+        <td>SVO</td>
+    </tr>
+
+    <tr>
+        <td>16:00</td>
+        <td>15:55</td>
+        <td>ср, сб</td>
+        <td>24 май / 27 май</td>
+        <td><img src="icons/aeroflot.png" class="icons-airplanes-aeroflot"></td>
+        <td>SU-1735</td>
+        <td>B777-300ER</td>
+        <td>SVO</td>
+    </tr>
+
+    <tr>
+        <td>16:00</td>
+        <td>15:55</td>
+        <td>вт, ср, чт, пт, сб, вс</td>
+        <td>30 май / 04 июн</td>
+        <td><img src="icons/aeroflot.png" class="icons-airplanes-aeroflot"></td>
+        <td>SU-1735</td>
+        <td>B777-300ER</td>
+        <td>SVO</td>
+    </tr>
+
+    <tr>
+        <td>16:00</td>
+        <td>15:55</td>
+        <td>ежедневно</td>
+        <td>05 июн / 03 сен</td>
+        <td><img src="icons/aeroflot.png" class="icons-airplanes-aeroflot"></td>
+        <td>SU-1735</td>
+        <td>B777-300ER</td>
+        <td>SVO</td>
+    </tr>
+
+    <tr>
+        <td>18:15</td>
+        <td>18:10</td>
+        <td>пт</td>
+        <td>16 июн / 23 июн</td>
+        <td><img src="icons/aeroflot.png" class="icons-airplanes-aeroflot"></td>
+        <td>SU-1733</td>
+        <td>B777-300ER</td>
+        <td>SVO</td>
+    </tr>
+
+    <tr class="city-name">
+        <th>Никольское</th>
+    </tr>
+
+    <tr>
+        <td>10:00</td>
+        <td>10:30</td>
+        <td>вт</td>
+        <td>30 май / 30 май</td>
+        <td><img src="icons/kap.png" class="icons-airplanes"></td>
+        <td>PTK-139</td>
+        <td>Л-410</td>
+        <td>Никольское</td>
+    </tr>
+
+    <tr>
+        <td>10:30</td>
+        <td>10:55</td>
+        <td>пн, чт</td>
+        <td>15 май / 08 июн</td>
+        <td><img src="icons/kap.png" class="icons-airplanes"></td>
+        <td>PTK-139</td>
+        <td>Л-410</td>
+        <td>Никольское</td>
+    </tr>
+
+    <tr>
+        <td>10:30</td>
+        <td>10:55</td>
+        <td>вт, чт</td>
+        <td>13 июн / 15 июн</td>
+        <td><img src="icons/kap.png" class="icons-airplanes"></td>
+        <td>PTK-139</td>
+        <td>Л-410</td>
+        <td>Никольское</td>
+    </tr>
+
+    <tr>
+        <td>10:30</td>
+        <td>10:55</td>
+        <td>пн, чт</td>
+        <td>19 июн / 29 июн</td>
+        <td><img src="icons/kap.png" class="icons-airplanes"></td>
+        <td>PTK-139</td>
+        <td>Л-410</td>
+        <td>Никольское</td>
+    </tr>
+
+    <tr class="city-name">
+        <th>Новосибирск</th>
+    </tr>
+
+    <tr>
+        <td>11:45</td>
+        <td>13:35</td>
+        <td>ежедневно</td>
+        <td>27 мар / 29 окт</td>
+        <td><img src="icons/s7.png" class="icons-airplanes"></td>
+        <td>S7-5250</td>
+        <td>A-320NEO</td>
+        <td>OVB</td>
+    </tr>
+
+    <tr class="city-name">
+        <th>Озерная</th>
+    </tr>
+
+    <tr>
+        <td>15:45</td>
+        <td>16:45</td>
+        <td>чт</td>
+        <td>30 мар / 27 окт</td>
+        <td><img src="icons/kap.png" class="icons-airplanes"></td>
+        <td>PTK-165</td>
+        <td>Л-410</td>
+        <td>Озерная</td>
+    </tr>
+</table>
+
+
+<footer class="footer" id="bottom-page">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Туристу</h4>
+                <ul>
+                    <li><a href="../at-development.html" title="Интерактивная карта" title="Интерактивная карта">Интерактивная карта</a></li>
+                    <li><a href="../tourist/tourist.html" title="Экскурсии по Камчатке" title="Экскурсии по Камчатке" >Экскурсии</a></li>
+                    <li><a href="../events/events.html" title="Куда сходить на Камчатке" title="Куда сходить на Камчатке" >Куда сходить</a></li>
+                    <li><a href="../at-development.html" title="Проживание на Камчатке" title="Проживание на Камчатке" >Проживание</a></li>
+                    <li><a href="../at-development.html" title="Где пость на Камчатке" title="Где поесть на Камчатке" >Где поесть</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Фотогалерея</h4>
+                <ul>
+                    <li><a href="../photogallery-animals/animals.html" title="Животнй мир Камчатки" >Животные</a></li>
+                    <li><a href="../photogallery-plants/plants.html" title="Растительный мир Камчатки" >Растения</a></li>
+                    <li><a href="../at-development.html" title="Городские достопримечательности" >Достопримечательности города</a></li>
+                    <li><a href="../at-development.html" title="Фото Дольны Гейзеров" >Долина Гейзеров</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Новости</h4>
+                <ul>
+                    <li><a href="../news/news.html" title="Все новости Камчатки">Все новости</a></li>
+                    <li><a href="../at-development.html" title="Новости экономики">Экономика</a></li>
+                    <li><a href="../at-development.html" title="Новости политики">Политика</a></li>
+                    <li><a href="../at-development.html" title="Прадники на Камчатке">Праздники</a></li>
+                    <li><a href="../at-development.html" title="Блог жителей полуострова">Блог</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>История</h4>
+                <ul>
+                    <li><a href="../history/history.html" title="История открытия Камчатки">История открытия</a></li>
+                    <li><a href="../at-development.html" title="История природных достопримечательностей Камчатки">Природные достопримечательности</a></li>
+                    <li><a href="../at-development.html" title="История растений Камчатки">Растения</a></li>
+                    <li><a href="../at-development.html" title="История животных Камчатки">Животные</a></li>
+                    <li><a href="../at-development.html" title="Мореплаватели">Мореплаватели</a></li>
+                    <li><a href="../at-development.html" title="Коренные народы Камчатки">Коренные народы</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Транспорт</h4>
+                <ul>
+                    <li><a href="../plans/plans.html" title="Расписание самолётов">Самолёты</a></li>
+                    <li><a href="../at-development.html" title="Расписание автобусов">Автобусы</a></li>
+                    <li><a href="../at-development.html" title="Услуги водного транспорта">Водный транспорт</a></li>
+                    <li><a href="../at-development.html" title="Услуги вертолётов">Вертолёты</a></li>
+                    <li><a href="../at-development.html" title="Номера такси">Такси</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Погода</h4>
+                <ul>
+                    <li><a href="../weather/weather.html" title="Погода сейчас">Погода сейчас</a></li>
+                    <li><a href="../at-development.html" title="Погода на нелелю">Погода на неделю</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Бизнесу</h4>
+                <ul>
+                    <li><a href="../buisnes/buisnes.html" title="Поддержка бизнеса государством">Поддержка государства</a></li>
+                    <li><a href="../at-development.html" title="Востребованные сегодня сферы">Востребованные сферы</a></li>
+                    <li><a href="../at-development.html" title="Открытие туризма">Открытие туристического бизнеса</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>О нас</h4>
+                <div class="social-links">
+                    <a href="https://vk.com" target="_blank" title="Сообщество Вконтакте"><i class="fa-brands fa-vk" style="color: #dddddd;"></i></a>
+                    <a href="t.me/aktivist_mtuci" target="_blank" title="Телеграмм-канал"><i class="fab fa-brands fa-telegram" style="color: #dddddd;"></i></a>
+                    <a href="https://ok.ru" target="_blank" title="Группа в Одноклассниках"><i class="fab fa-odnoklassniki"></i></a>
+                </div>
+                <div class="social-links">
+                    <a href="../index.html" title="Домой"><i class="fa-solid fa-house" style="color: #dddddd;"></i></a>
+                    <a href="../map/map.html " title="Карта сайта"><i class="fa-solid fa-sitemap" style="color: #dddddd;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
